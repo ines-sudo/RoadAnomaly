@@ -1,0 +1,13 @@
+{
+  "profile": "learning",
+  "model": "deeplabv3plus",
+  "seed": 42,
+  "preprocessing_version": 1,
+  "dataset_manifest": "configs/datasets/camvid.json",
+  "height": 288,
+  "width": 512,
+  "classes": 11,
+  "weights": "imagenet",
+  "freeze_encoder": true,
+  "decoder_channels": 128
+}
