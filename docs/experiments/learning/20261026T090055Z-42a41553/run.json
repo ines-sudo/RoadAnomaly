@@ -1,0 +1,41 @@
+{
+  "profile": "learning",
+  "run_id": "20261026T090055Z-42a41553",
+  "config": {
+    "profile": "learning",
+    "model": "deeplabv3plus",
+    "seed": 42,
+    "preprocessing_version": 1,
+    "dataset_manifest": "configs/datasets/camvid.json",
+    "height": 288,
+    "width": 512,
+    "classes": 11,
+    "weights": "imagenet",
+    "freeze_encoder": true,
+    "decoder_channels": 128
+  },
+  "seed": 42,
+  "batch_size": 2,
+  "learning_rate": 0.001,
+  "initialization": "fresh model from config; not resumed",
+  "epochs_requested": 2,
+  "epochs_completed": 2,
+  "train_batches": 238,
+  "validation_batches": 62,
+  "manifest_sha256": "16c21bb8279b7c1e6ebd10a252ad65e6775d0e8e791824e0211a0a7fb6b2a62b",
+  "split_hash": "abcb73db59dfd19e7e8f0c9845a3613ed3e430c0c1eb1fccd49cd4501c3292eb",
+  "tensorflow": "2.21.0",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "seconds": 444.8365774999984,
+  "history": {
+    "loss": [
+      0.37431269884109497,
+      0.23074504733085632
+    ],
+    "val_loss": [
+      0.6326766610145569,
+      0.7419741153717041
+    ]
+  },
+  "benchmark_used_for_training": false
+}
